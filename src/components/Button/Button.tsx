@@ -7,7 +7,9 @@ interface ButtonProps {
   leftIcon?: React.ReactNode
   rightIcon?: React.ReactNode
   isLoading?: boolean
-  isCircular?: boolean // Added prop
+  isCircular?: boolean
+  radiusClass?: string
+  sizeClass?: string
 }
 
 const BaseButton = ({
@@ -18,10 +20,12 @@ const BaseButton = ({
   rightIcon,
   isLoading = false,
   isCircular = false,
+  radiusClass = "rounded-md",
+  sizeClass = "px-4 py-2 text-sm",
   className,
-}: ButtonProps & {className: string}) => (
+}: ButtonProps & { className: string }) => (
   <button
-    className={`${className} inline-flex items-center justify-center gap-2 transition cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed`}
+    className={`${className} ${radiusClass} ${sizeClass} inline-flex items-center justify-center gap-2 transition cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed`}
     onClick={onClick}
     disabled={disabled || isLoading}
   >
