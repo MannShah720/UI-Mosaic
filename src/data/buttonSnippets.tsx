@@ -9,44 +9,20 @@ export interface ButtonVariant {
 
 export const buttonVariants: ButtonVariant[] = [
   {
-    id: "github-star",
-    title: "GitHub Star",
-    codeSnippet: `<button className="flex overflow-hidden items-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-black text-white shadow hover:bg-black/90 h-9 px-4 py-2 max-w-52 whitespace-pre md:flex group relative w-full justify-center gap-2 rounded-md transition-all duration-300 ease-out hover:ring-2 hover:ring-black hover:ring-offset-2">
-  <span className="absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 bg-white opacity-10 transition-all duration-1000 ease-out group-hover:-translate-x-40"></span>
-  <div className="flex items-center">
-    <svg className="w-4 h-4 fill-current" viewBox="0 0 438.549 438.549">
-      <path d="M409.132 114.573c-19.608-33.596-46.205-60.194-79.798-79.8-33.598-19.607-70.277-29.408-110.063-29.408-39.781 0-76.472 9.804-110.063 29.408-33.596 19.605-60.192 46.204-79.8 79.8C9.803 148.168 0 184.854 0 224.63c0 47.78 13.94 90.745 41.827 128.906 27.884 38.164 63.906 64.572 108.063 79.227 5.14.954 8.945.283 11.419-1.996 2.475-2.282 3.711-5.14 3.711-8.562 0-.571-.049-5.708-.144-15.417a2549.81 2549.81 0 01-.144-25.406l-6.567 1.136c-4.187.767-9.469 1.092-15.846 1-6.374-.089-12.991-.757-19.842-1.999-6.854-1.231-13.229-4.086-19.13-8.559-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-.951-2.568-2.098-3.711-3.429-1.142-1.331-1.997-2.663-2.568-3.997-.572-1.335-.098-2.43 1.427-3.289 1.525-.859 4.281-1.276 8.28-1.276l5.708.853c3.807.763 8.516 3.042 14.133 6.851 5.614 3.806 10.229 8.754 13.846 14.842 4.38 7.806 9.657 13.754 15.846 17.847 6.184 4.093 12.419 6.136 18.699 6.136 6.28 0 11.704-.476 16.274-1.423 4.565-.952 8.848-2.383 12.847-4.285 1.713-12.758 6.377-22.559 13.988-29.41-10.848-1.14-20.601-2.857-29.264-5.14-8.658-2.286-17.605-5.996-26.835-11.14-9.235-5.137-16.896-11.516-22.985-19.126-6.09-7.614-11.088-17.61-14.987-29.979-3.901-12.374-5.852-26.648-5.852-42.826 0-23.035 7.52-42.637 22.557-58.817-7.044-17.318-6.379-36.732 1.997-58.24 5.52-1.715 13.706-.428 24.554 3.853 10.85 4.283 18.794 7.952 23.84 10.994 5.046 3.041 9.089 5.618 12.135 7.708 17.705-4.947 35.976-7.421 54.818-7.421s37.117 2.474 54.823 7.421l10.849-6.849c7.419-4.57 16.18-8.758 26.262-12.565 10.088-3.805 17.802-4.853 23.134-3.138 8.562 21.509 9.325 40.922 2.279 58.24 15.036 16.18 22.559 35.787 22.559 58.817 0 16.178-1.958 30.497-5.853 42.966-3.9 12.471-8.941 22.457-15.125 29.979-6.191 7.521-13.901 13.85-23.131 18.986-9.232 5.14-18.182 8.85-26.84 11.136-8.662 2.286-18.415 4.004-29.263 5.146 9.894 8.562 14.842 22.077 14.842 40.539v60.237c0 3.422 1.19 6.279 3.572 8.562 2.379 2.279 6.136 2.95 11.276 1.995 44.163-14.653 80.185-41.062 108.068-79.226 27.88-38.161 41.825-81.126 41.825-128.906-.01-39.771-9.818-76.454-29.414-110.049z"></path>
-    </svg>
-    <span className="ml-1 text-white">Star on GitHub</span>
-  </div>
-  <div className="ml-2 flex items-center gap-1 text-sm md:flex">
-    <svg className="w-4 h-4 text-gray-500 transition-all duration-300 group-hover:text-yellow-300" data-slot="icon" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-      <path clipRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" fillRule="evenodd"></path>
-    </svg>
-    <span className="inline-block tabular-nums tracking-wider font-display font-medium text-white">6</span>
-  </div>
-</button>`,
+    id: "slide-fill",
+    title: "Slide & Invert",
+    codeSnippet: `<button className="group relative px-[25px] py-[15px] border-none rounded-[15px] text-[#212121] z-[1] bg-[#e8e8e8] font-black text-[17px] shadow-[4px_8px_19px_-3px_rgba(0,0,0,0.27)] overflow-hidden transition-all duration-250 hover:text-[#e8e8e8] before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:w-0 before:rounded-[15px] before:bg-[#212121] before:z-[-1] before:shadow-[4px_8px_19px_-3px_rgba(0,0,0,0.27)] before:transition-all before:duration-250 hover:before:w-full" type="button">
+    Hover me
+    </button>`,
     Component: () => (
-      <button className="flex overflow-hidden items-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-black text-white shadow hover:bg-black/90 h-9 px-4 py-2 max-w-52 whitespace-pre md:flex group relative w-full justify-center gap-2 rounded-md transition-all duration-300 ease-out hover:ring-2 hover:ring-black hover:ring-offset-2">
-        <span className="absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 bg-white opacity-10 transition-all duration-1000 ease-out group-hover:-translate-x-40"></span>
-        <div className="flex items-center">
-          <svg className="w-4 h-4 fill-current" viewBox="0 0 438.549 438.549">
-            <path d="M409.132 114.573c-19.608-33.596-46.205-60.194-79.798-79.8-33.598-19.607-70.277-29.408-110.063-29.408-39.781 0-76.472 9.804-110.063 29.408-33.596 19.605-60.192 46.204-79.8 79.8C9.803 148.168 0 184.854 0 224.63c0 47.78 13.94 90.745 41.827 128.906 27.884 38.164 63.906 64.572 108.063 79.227 5.14.954 8.945.283 11.419-1.996 2.475-2.282 3.711-5.14 3.711-8.562 0-.571-.049-5.708-.144-15.417a2549.81 2549.81 0 01-.144-25.406l-6.567 1.136c-4.187.767-9.469 1.092-15.846 1-6.374-.089-12.991-.757-19.842-1.999-6.854-1.231-13.229-4.086-19.13-8.559-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-.951-2.568-2.098-3.711-3.429-1.142-1.331-1.997-2.663-2.568-3.997-.572-1.335-.098-2.43 1.427-3.289 1.525-.859 4.281-1.276 8.28-1.276l5.708.853c3.807.763 8.516 3.042 14.133 6.851 5.614 3.806 10.229 8.754 13.846 14.842 4.38 7.806 9.657 13.754 15.846 17.847 6.184 4.093 12.419 6.136 18.699 6.136 6.28 0 11.704-.476 16.274-1.423 4.565-.952 8.848-2.383 12.847-4.285 1.713-12.758 6.377-22.559 13.988-29.41-10.848-1.14-20.601-2.857-29.264-5.14-8.658-2.286-17.605-5.996-26.835-11.14-9.235-5.137-16.896-11.516-22.985-19.126-6.09-7.614-11.088-17.61-14.987-29.979-3.901-12.374-5.852-26.648-5.852-42.826 0-23.035 7.52-42.637 22.557-58.817-7.044-17.318-6.379-36.732 1.997-58.24 5.52-1.715 13.706-.428 24.554 3.853 10.85 4.283 18.794 7.952 23.84 10.994 5.046 3.041 9.089 5.618 12.135 7.708 17.705-4.947 35.976-7.421 54.818-7.421s37.117 2.474 54.823 7.421l10.849-6.849c7.419-4.57 16.18-8.758 26.262-12.565 10.088-3.805 17.802-4.853 23.134-3.138 8.562 21.509 9.325 40.922 2.279 58.24 15.036 16.18 22.559 35.787 22.559 58.817 0 16.178-1.958 30.497-5.853 42.966-3.9 12.471-8.941 22.457-15.125 29.979-6.191 7.521-13.901 13.85-23.131 18.986-9.232 5.14-18.182 8.85-26.84 11.136-8.662 2.286-18.415 4.004-29.263 5.146 9.894 8.562 14.842 22.077 14.842 40.539v60.237c0 3.422 1.19 6.279 3.572 8.562 2.379 2.279 6.136 2.95 11.276 1.995 44.163-14.653 80.185-41.062 108.068-79.226 27.88-38.161 41.825-81.126 41.825-128.906-.01-39.771-9.818-76.454-29.414-110.049z"></path>
-          </svg>
-          <span className="ml-1 text-white">Star on GitHub</span>
-        </div>
-        <div className="ml-2 flex items-center gap-1 text-sm md:flex">
-          <svg className="w-4 h-4 text-gray-500 transition-all duration-300 group-hover:text-yellow-300" data-slot="icon" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path clipRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" fillRule="evenodd"></path>
-          </svg>
-          <span className="inline-block tabular-nums tracking-wider font-display font-medium text-white">6</span>
-        </div>
-      </button>
+        <button className="group relative px-[25px] py-[15px] border-none rounded-[15px] text-[#212121] z-[1] bg-[#e8e8e8] font-black text-[17px] shadow-[4px_8px_19px_-3px_rgba(0,0,0,0.27)] overflow-hidden transition-all duration-250 hover:text-[#e8e8e8] before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:w-0 before:rounded-[15px] before:bg-[#212121] before:z-[-1] before:shadow-[4px_8px_19px_-3px_rgba(0,0,0,0.27)] before:transition-all before:duration-250 hover:before:w-full" type="button">
+        Hover me
+        </button>
     )
   },
   {
     id: "go-back",
-    title: "Slide",
+    title: "Slide & Cover",
     codeSnippet: `<button className="bg-white text-center w-48 rounded-2xl h-14 relative text-black text-xl font-semibold group" type="button">
   <div className="bg-green-400 rounded-xl h-12 w-1/4 flex items-center justify-center absolute left-1 top-[4px] group-hover:w-[184px] z-10 duration-500">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" height="25px" width="25px">
@@ -66,6 +42,162 @@ export const buttonVariants: ButtonVariant[] = [
         </div>
         <p className="translate-x-2">Go Back</p>
       </button>
+    )
+  },
+  {
+    id: "slide-invert",
+    title: "Arrow Slide",
+    codeSnippet: `<button className="group relative inline-block cursor-pointer outline-none border-0 align-middle bg-transparent p-0 w-[12rem] h-auto font-sans" type="button">
+    <span className="relative block m-0 w-[3rem] h-[3rem] bg-[#282936] rounded-[1.625rem] transition-all duration-[450ms] ease-[cubic-bezier(0.65,0,0.076,1)] group-hover:w-full" aria-hidden="true">
+      <span className="absolute top-0 bottom-0 m-auto left-[0.625rem] w-[1.125rem] h-[0.125rem] bg-transparent transition-all duration-[450ms] ease-[cubic-bezier(0.65,0,0.076,1)] group-hover:bg-white group-hover:translate-x-[1rem] before:absolute before:content-[''] before:-top-[0.29rem] before:right-[0.0625rem] before:w-[0.625rem] before:h-[0.625rem] before:border-t-[0.125rem] before:border-r-[0.125rem] before:border-white before:rotate-45"></span>
+    </span>
+    <span className="absolute inset-0 py-[0.75rem] px-0 ml-[1.85rem] text-[#282936] font-bold leading-[1.6] text-center uppercase transition-all duration-[450ms] ease-[cubic-bezier(0.65,0,0.076,1)] group-hover:text-white">
+      Learn More
+    </span>
+  </button>`,
+    Component: () => (
+      <button className="group relative inline-block cursor-pointer outline-none border-0 align-middle bg-transparent p-0 w-[12rem] h-auto font-sans" type="button">
+        <span className="relative block m-0 w-[3rem] h-[3rem] bg-[#282936] rounded-[1.625rem] transition-all duration-[450ms] ease-[cubic-bezier(0.65,0,0.076,1)] group-hover:w-full" aria-hidden="true">
+          <span className="absolute top-0 bottom-0 m-auto left-[0.625rem] w-[1.125rem] h-[0.125rem] bg-transparent transition-all duration-[450ms] ease-[cubic-bezier(0.65,0,0.076,1)] group-hover:bg-white group-hover:translate-x-[1rem] before:absolute before:content-[''] before:-top-[0.29rem] before:right-[0.0625rem] before:w-[0.625rem] before:h-[0.625rem] before:border-t-[0.125rem] before:border-r-[0.125rem] before:border-white before:rotate-45"></span>
+        </span>
+        <span className="absolute inset-0 py-[0.75rem] px-0 ml-[1.85rem] text-[#282936] font-bold leading-[1.6] text-center uppercase transition-all duration-[450ms] ease-[cubic-bezier(0.65,0,0.076,1)] group-hover:text-white">
+          Learn More
+        </span>
+      </button>
+    )
+  },
+  {
+    id: "expand",
+    title: "Expand",
+    codeSnippet: `<button className="group flex items-center justify-start w-[45px] h-[45px] border-none rounded-full cursor-pointer relative overflow-hidden transition-all duration-300 shadow-[2px_2px_10px_rgba(0,0,0,0.199)] bg-[rgb(255,65,65)] hover:w-[125px] hover:rounded-[40px] active:translate-x-[2px] active:translate-y-[2px]" type="button">
+    <div className="flex items-center justify-center w-full transition-all duration-300 group-hover:w-[30%] group-hover:pl-[20px]">
+      <svg className="w-[17px] fill-white" viewBox="0 0 512 512">
+        <path d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z"></path>
+      </svg>
+    </div>
+    <div className="absolute right-0 w-0 opacity-0 text-white text-[1.2em] font-semibold transition-all duration-300 group-hover:opacity-100 group-hover:w-[70%] group-hover:pr-[10px] whitespace-nowrap">
+      Logout
+    </div>
+  </button>`,
+    Component: () => (
+      <button className="group flex items-center justify-start w-[45px] h-[45px] border-none rounded-full cursor-pointer relative overflow-hidden transition-all duration-300 shadow-[2px_2px_10px_rgba(0,0,0,0.199)] bg-[rgb(255,65,65)] hover:w-[125px] hover:rounded-[40px] active:translate-x-[2px] active:translate-y-[2px]" type="button">
+        <div className="flex items-center justify-center w-full transition-all duration-300 group-hover:w-[30%] group-hover:pl-[20px]">
+          <svg className="w-[17px] fill-white" viewBox="0 0 512 512">
+            <path d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z"></path>
+          </svg>
+        </div>
+        <div className="absolute right-0 w-0 opacity-0 text-white text-[1.2em] font-semibold transition-all duration-300 group-hover:opacity-100 group-hover:w-[70%] group-hover:pr-[10px] whitespace-nowrap">
+          Logout
+        </div>
+      </button>
+    )
+  },
+  {
+    id: "spin-expand",
+    title: "Expand & Spin",
+    codeSnippet: `<button className="group flex items-center justify-start w-[40px] h-[40px] gap-[10px] bg-[rgb(161,255,20)] rounded-[30px] text-[rgb(19,19,19)] font-semibold border-none relative cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.116)] pl-[7.5px] overflow-hidden transition-all duration-500 hover:w-[125px] hover:bg-[rgb(192,255,20)] active:scale-[0.97]" type="button">
+    <div className="flex items-center justify-center shrink-0">
+      <svg className="h-[25px] w-[25px] fill-[rgb(19,19,19)] transition-transform duration-1500 ease-out group-hover:rotate-[250deg]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"></path>
+      </svg>
+    </div>
+    <span className="opacity-0 transition-opacity duration-300 group-hover:opacity-100 whitespace-nowrap low-dpi:tracking-wide">
+      Explore
+    </span>
+  </button>`,
+    Component: () => (
+      <button className="group flex items-center justify-start w-[40px] h-[40px] gap-[10px] bg-[rgb(161,255,20)] rounded-[30px] text-[rgb(19,19,19)] font-semibold border-none relative cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.116)] pl-[7.5px] overflow-hidden transition-all duration-500 hover:w-[125px] hover:bg-[rgb(192,255,20)] active:scale-[0.97]" type="button">
+        <div className="flex items-center justify-center shrink-0">
+          <svg className="h-[25px] w-[25px] fill-[rgb(19,19,19)] transition-transform duration-1500 ease-out group-hover:rotate-[250deg]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"></path>
+          </svg>
+        </div>
+        <span className="opacity-0 transition-opacity duration-300 group-hover:opacity-100 whitespace-nowrap">
+          Explore
+        </span>
+      </button>
+    )
+  },
+  {
+    id: "bin-lid-flip",
+    title: "Trash Flip",
+    codeSnippet: `<button className="group flex flex-col items-center justify-center w-[55px] h-[55px] rounded-[15px] bg-[rgb(255,95,95)] cursor-pointer border-[3px] border-[rgb(255,201,201)] transition-all duration-300 hover:bg-[rgb(255,0,0)] active:scale-[0.9]" type="button">
+    <svg className="w-[17px] origin-right transition-transform duration-300 group-hover:rotate-[45deg]" viewBox="0 0 39 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <line y1="5" x2="39" y2="5" stroke="white" strokeWidth="4"></line>
+      <line x1="12" y1="1.5" x2="26.0357" y2="1.5" stroke="white" strokeWidth="3"></line>
+    </svg>
+    <svg className="w-[15px]" viewBox="0 0 33 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <mask id="path-1-inside-1_8_19" fill="white">
+        <path d="M0 0H33V35C33 37.2091 31.2091 39 29 39H4C1.79086 39 0 37.2091 0 35V0Z"></path>
+      </mask>
+      <path d="M0 0H33H0ZM37 35C37 39.4183 33.4183 43 29 43H4C-0.418278 43 -4 39.4183 -4 35H4H29H37ZM4 43C-0.418278 43 -4 39.4183 -4 35V0H4V35V43ZM37 0V35C37 39.4183 33.4183 43 29 43V35V0H37Z" fill="white" mask="url(#path-1-inside-1_8_19)"></path>
+      <path d="M12 6L12 29" stroke="white" strokeWidth="4"></path>
+      <path d="M21 6V29" stroke="white" strokeWidth="4"></path>
+    </svg>
+  </button>`,
+    Component: () => (
+      <button className="group flex flex-col items-center justify-center w-[55px] h-[55px] rounded-[15px] bg-[rgb(255,95,95)] cursor-pointer border-[3px] border-[rgb(255,201,201)] transition-all duration-300 hover:bg-[rgb(255,0,0)] active:scale-[0.9]" type="button">
+        <svg className="w-[17px] origin-right transition-transform duration-300 group-hover:rotate-[45deg]" viewBox="0 0 39 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line y1="5" x2="39" y2="5" stroke="white" strokeWidth="4"></line>
+          <line x1="12" y1="1.5" x2="26.0357" y2="1.5" stroke="white" strokeWidth="3"></line>
+        </svg>
+        <svg className="w-[15px]" viewBox="0 0 33 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <mask id="path-1-inside-1_8_19" fill="white">
+            <path d="M0 0H33V35C33 37.2091 31.2091 39 29 39H4C1.79086 39 0 37.2091 0 35V0Z"></path>
+          </mask>
+          <path d="M0 0H33H0ZM37 35C37 39.4183 33.4183 43 29 43H4C-0.418278 43 -4 39.4183 -4 35H4H29H37ZM4 43C-0.418278 43 -4 39.4183 -4 35V0H4V35V43ZM37 0V35C37 39.4183 33.4183 43 29 43V35V0H37Z" fill="white" mask="url(#path-1-inside-1_8_19)"></path>
+          <path d="M12 6L12 29" stroke="white" strokeWidth="4"></path>
+          <path d="M21 6V29" stroke="white" strokeWidth="4"></path>
+        </svg>
+      </button>
+    )
+  },
+  {
+    id: "slide-up-1",
+    title: "Slide Up 1",
+    codeSnippet: `<button className="group outline-none border-none flex flex-col w-full max-w-[140px] h-[50px] rounded-[0.5em] shadow-[0_0.625em_1em_0_rgba(30,143,255,0.35)] overflow-hidden cursor-pointer transition-all duration-600 ease-[cubic-bezier(0.16,1,0.3,1)] hover:shadow-[0_0.625em_1em_0_rgba(33,220,98,0.35)] active:scale-95" type="button">
+    <div className="w-full bg-[#1e90ff] transition-transform duration-600 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-y-[-50px]">
+      <span className="flex items-center justify-between h-[50px] padding px-[1.125em] py-[0.75em]">
+        <p className="text-[17px] font-bold text-white">Hover Me</p>
+        <p className="text-[17px] font-bold text-white">:)</p>
+      </span>
+    </div>
+    <div className="w-full bg-[#21dc62] transition-transform duration-600 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-y-[-50px]">
+      <span className="flex items-center justify-between h-[50px] padding px-[1.125em] py-[0.75em]">
+        <p className="text-[17px] font-bold text-white">Thanks</p>
+        <p className="text-[17px] font-bold text-white">:D</p>
+      </span>
+    </div>
+  </button>`,
+    Component: () => (
+      <button className="group outline-none border-none flex flex-col w-full max-w-[140px] h-[50px] rounded-[0.5em] shadow-[0_0.625em_1em_0_rgba(30,143,255,0.35)] overflow-hidden cursor-pointer transition-all duration-600 ease-[cubic-bezier(0.16,1,0.3,1)] hover:shadow-[0_0.625em_1em_0_rgba(33,220,98,0.35)] active:scale-95" type="button">
+        <div className="w-full bg-[#1e90ff] transition-transform duration-600 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-y-[-50px]">
+          <span className="flex items-center justify-between h-[50px] px-[1.125em] py-[0.75em]">
+            <p className="text-[17px] font-bold text-white">Hover Me</p>
+            <p className="text-[17px] font-bold text-white">:)</p>
+          </span>
+        </div>
+        <div className="w-full bg-[#21dc62] transition-transform duration-600 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-y-[-50px]">
+          <span className="flex items-center justify-between h-[50px] px-[1.125em] py-[0.75em]">
+            <p className="text-[17px] font-bold text-white">Thanks</p>
+            <p className="text-[17px] font-bold text-white">:D</p>
+          </span>
+        </div>
+      </button>
+    )
+  },
+  {
+    id: "slide-up-2",
+    title: "Slide Up 2",
+    codeSnippet: `<button className="group relative bg-transparent text-[#e8e8e8] text-[17px] font-semibold rounded-[10px] w-[150px] h-[60px] border-none uppercase cursor-pointer overflow-hidden shadow-[0_10px_20px_rgba(51,51,51,0.2)] transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] focus:outline-none active:scale-95" type="button">
+    <span className="before:content-['Hello!'] before:flex before:items-center before:justify-center before:w-full before:h-full before:pointer-events-none before:bg-gradient-to-br before:from-[#7b4397] before:to-[#dc2430] before:translate-y-[90%] before:z-[99] before:relative before:origin-bottom before:transition-all before:duration-600 before:ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:before:translate-y-0"></span>
+    <span className="after:content-['Hover_me'] after:flex after:items-center after:justify-center after:bg-[#333] after:w-full after:h-full after:pointer-events-none after:origin-top after:translate-y-[-100%] after:transition-all after:duration-600 after:ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:after:translate-y-[-200%] block w-full h-full"></span>
+    </button>`,
+    Component: () => (
+        <button className="group relative bg-transparent text-[#e8e8e8] text-[17px] font-semibold rounded-[10px] w-[150px] h-[60px] border-none uppercase cursor-pointer overflow-hidden shadow-[0_10px_20px_rgba(51,51,51,0.2)] transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] focus:outline-none active:scale-95" type="button">
+        <span className="before:content-['Hello!'] before:flex before:items-center before:justify-center before:w-full before:h-full before:pointer-events-none before:bg-gradient-to-br before:from-[#7b4397] before:to-[#dc2430] before:translate-y-[90%] before:z-[99] before:relative before:origin-bottom before:transition-all before:duration-600 before:ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:before:translate-y-0"></span>
+        <span className="after:content-['Hover_me'] after:flex after:items-center after:justify-center after:bg-[#333] after:w-full after:h-full after:pointer-events-none after:origin-top after:translate-y-[-100%] after:transition-all after:duration-600 after:ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:after:translate-y-[-200%] block w-full h-full"></span>
+        </button>
     )
   },
   {
@@ -116,13 +248,38 @@ export const buttonVariants: ButtonVariant[] = [
   },
   {
     id: "shiny-button",
-    title: "Shiny",
+    title: "Shiny 1",
     codeSnippet: `<button className="group relative px-[30px] py-[16px] text-[17px] text-white bg-black/80 rounded-[20px] backdrop-blur-[15px] cursor-pointer shadow-[0_10px_20px_rgba(0,0,0,0.1),inset_0_0_0_1px_rgba(255,255,255,0.15)] overflow-hidden transition-all duration-[400ms] ease-[cubic-bezier(0.4,0,0.2,1)] font-sans tracking-[0.5px] [text-shadow:0_1px_2px_rgba(0,0,0,0.1)] hover:-translate-y-[3px] hover:scale-[1.02] hover:bg-black/75 hover:shadow-[0_15px_30px_rgba(0,0,0,0.15),inset_0_0_0_1px_rgba(255,255,255,0.2)] hover:tracking-[1.5px] active:translate-y-[1px] active:scale-[0.98] active:shadow-[0_5px_15px_rgba(0,0,0,0.1),inset_0_0_0_1px_rgba(255,255,255,0.15)] active:bg-white/20 before:content-[''] before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent before:transition-all before:duration-[600ms] hover:before:left-full after:content-[''] after:absolute after:inset-0 after:bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.1)_0%,transparent_70%)] after:opacity-0 after:transition-opacity after:duration-[400ms] after:ease-in-out hover:after:opacity-100" type="button">
     <span className="relative z-10 font-medium">Ooh Shiny!</span>
   </button>`,
     Component: () => (
       <button className="group relative px-[30px] py-[16px] text-[17px] text-white bg-black/80 rounded-[20px] backdrop-blur-[15px] cursor-pointer shadow-[0_10px_20px_rgba(0,0,0,0.1),inset_0_0_0_1px_rgba(255,255,255,0.15)] overflow-hidden transition-all duration-[400ms] ease-[cubic-bezier(0.4,0,0.2,1)] font-sans tracking-[0.5px] [text-shadow:0_1px_2px_rgba(0,0,0,0.1)] hover:-translate-y-[3px] hover:scale-[1.02] hover:bg-black/75 hover:shadow-[0_15px_30px_rgba(0,0,0,0.15),inset_0_0_0_1px_rgba(255,255,255,0.2)] hover:tracking-[1.5px] active:translate-y-[1px] active:scale-[0.98] active:shadow-[0_5px_15px_rgba(0,0,0,0.1),inset_0_0_0_1px_rgba(255,255,255,0.15)] active:bg-white/20 before:content-[''] before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent before:transition-all before:duration-[600ms] hover:before:left-full after:content-[''] after:absolute after:inset-0 after:bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.1)_0%,transparent_70%)] after:opacity-0 after:transition-opacity after:duration-[400ms] after:ease-in-out hover:after:opacity-100" type="button">
         <span className="relative z-10 font-medium">Ooh Shiny!</span>
+      </button>
+    )
+  },
+  {
+    id: "shine-shift",
+    title: "Shiny 2",
+    codeSnippet: `// Use this inside your global css file 
+@keyframes shine {
+    0% { left: -100px; }
+    60%, 100% { left: 100%; }
+}
+
+// Tailwind 
+<button className="group relative flex items-center justify-center gap-[10px] px-[1.25rem] py-[0.5rem] bg-[rgb(0,107,179)] text-white font-bold text-[15px] border-[3px] border-[#ffffff4d] rounded-full cursor-pointer overflow-hidden outline-none shadow-[0px_10px_20px_rgba(0,0,0,0.2)] transition-all duration-300 ease-in-out hover:scale-105 hover:border-[#fff9] before:content-[''] before:absolute before:top-0 before:left-[-100px] before:w-[100px] before:h-full before:opacity-60 before:bg-[linear-gradient(120deg,rgba(255,255,255,0)_30%,rgba(255,255,255,0.8),rgba(255,255,255,0)_70%)] hover:before:animate-[shine_1.5s_ease-out_infinite]" type="button">
+    Apply Now
+    <svg className="w-6 h-6 transition-transform duration-300 ease-in-out group-hover:translate-x-[4px]" viewBox="0 0 24 24" fill="currentColor">
+        <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" clipRule="evenodd"></path>
+    </svg>
+</button>`,
+    Component: () => (
+      <button className="group relative flex items-center justify-center gap-[10px] px-[1.25rem] py-[0.5rem] bg-[rgb(0,107,179)] text-white font-bold text-[15px] border-[3px] border-[#ffffff4d] rounded-full cursor-pointer overflow-hidden outline-none shadow-[0px_10px_20px_rgba(0,0,0,0.2)] transition-all duration-300 ease-in-out hover:scale-105 hover:border-[#fff9] before:content-[''] before:absolute before:top-0 before:left-[-100px] before:w-[100px] before:h-full before:opacity-60 before:bg-[linear-gradient(120deg,rgba(255,255,255,0)_30%,rgba(255,255,255,0.8),rgba(255,255,255,0)_70%)] hover:before:animate-[shine_1.5s_ease-out_infinite]" type="button">
+        Apply Now
+        <svg className="w-6 h-6 transition-transform duration-300 ease-in-out group-hover:translate-x-[4px]" viewBox="0 0 24 24" fill="currentColor">
+          <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" clipRule="evenodd"></path>
+        </svg>
       </button>
     )
   },
@@ -163,5 +320,29 @@ export const buttonVariants: ButtonVariant[] = [
         </div>
       </button>
     )
-  }
+  },
+  {
+    id: "tactile-render",
+    title: "Tactile Render",
+    codeSnippet: `<button className="group relative cursor-pointer rounded-[100em] bg-black/75 shadow-[-0.15em_-0.15em_0.15em_-0.075em_rgba(5,5,5,0.25),0.0375em_0.0375em_0.0675em_0_rgba(5,5,5,0.1)] after:content-[''] after:absolute after:z-0 after:w-[calc(100%+0.3em)] after:h-[calc(100%+0.3em)] after:-top-[0.15em] after:-left-[0.15em] after:rounded-[inherit] after:bg-[linear-gradient(-135deg,rgba(5,5,5,0.5),transparent_20%,transparent_100%)] after:blur-[0.0125em] after:opacity-25 after:mix-blend-multiply" type="button">
+    <div className="relative z-[1] rounded-[inherit] transition-all duration-300 ease-out will-change-[box-shadow] shadow-[0_0.05em_0.05em_-0.01em_rgba(5,5,5,1),0_0.01em_0.01em_-0.01em_rgba(5,5,5,0.5),0.15em_0.3em_0.1em_-0.01em_rgba(5,5,5,0.25)] group-hover:shadow-[0_0_0_0_transparent]">
+      <div className="relative z-[1] rounded-[inherit] px-[1.5em] py-[1em] bg-[linear-gradient(135deg,rgba(230,230,230,1),rgba(180,180,180,1))] transition-all duration-300 ease-in-out overflow-clip [clip-path:inset(0_0_0_0_round_100em)] shadow-[inset_0_0_0_0_rgba(5,5,5,0.1),inset_-0.05em_-0.05em_0.05em_0_rgba(5,5,5,0.25),inset_0_0_0_0_rgba(5,5,5,0.1),inset_0_0_0.05em_0.2em_rgba(255,255,255,0.25),inset_0.025em_0.05em_0.1em_0_rgba(255,255,255,1),inset_0.12em_0.12em_0.12em_rgba(255,255,255,0.25),inset_-0.075em_-0.25em_0.25em_0.1em_rgba(5,5,5,0.25)] group-hover:[clip-path:inset(clamp(1px,0.0625em,2px)_clamp(1px,0.0625em,2px)_clamp(1px,0.0625em,2px)_clamp(1px,0.0625em,2px)_round_100em)] group-hover:shadow-[inset_0.1em_0.15em_0.05em_0_rgba(5,5,5,0.75),inset_-0.025em_-0.03em_0.05em_0.025em_rgba(5,5,5,0.5),inset_0.25em_0.25em_0.2em_0_rgba(5,5,5,0.5),inset_0_0_0.05em_0.5em_rgba(255,255,255,0.15),inset_0_0_0_0_rgba(255,255,255,1),inset_0.12em_0.12em_0.12em_rgba(255,255,255,0.25),inset_-0.075em_-0.12em_0.2em_0.1em_rgba(5,5,5,0.25)] group-active:scale-[0.975]">
+        <span className="relative z-[4] font-sans tracking-[-0.05em] font-medium text-transparent block select-none bg-[linear-gradient(135deg,rgba(25,25,25,1),rgba(75,75,75,1))] bg-clip-text [text-shadow:rgba(0,0,0,0.1)_0_0_0.1em] transition-transform duration-250 ease-out group-hover:scale-[0.975]">
+          Press me
+        </span>
+      </div>
+    </div>
+  </button>`,
+    Component: () => (
+      <button className="group relative cursor-pointer rounded-[100em] bg-black/75 shadow-[-0.15em_-0.15em_0.15em_-0.075em_rgba(5,5,5,0.25),0.0375em_0.0375em_0.0675em_0_rgba(5,5,5,0.1)] after:content-[''] after:absolute after:z-0 after:w-[calc(100%+0.3em)] after:h-[calc(100%+0.3em)] after:-top-[0.15em] after:-left-[0.15em] after:rounded-[inherit] after:bg-[linear-gradient(-135deg,rgba(5,5,5,0.5),transparent_20%,transparent_100%)] after:blur-[0.0125em] after:opacity-25 after:mix-blend-multiply" type="button">
+        <div className="relative z-[1] rounded-[inherit] transition-all duration-300 ease-out will-change-[box-shadow] shadow-[0_0.05em_0.05em_-0.01em_rgba(5,5,5,1),0_0.01em_0.01em_-0.01em_rgba(5,5,5,0.5),0.15em_0.3em_0.1em_-0.01em_rgba(5,5,5,0.25)] group-hover:shadow-[0_0_0_0_transparent]">
+          <div className="relative z-[1] rounded-[inherit] px-[1.5em] py-[1em] bg-[linear-gradient(135deg,rgba(230,230,230,1),rgba(180,180,180,1))] transition-all duration-300 ease-in-out overflow-clip [clip-path:inset(0_0_0_0_round_100em)] shadow-[inset_0_0_0_0_rgba(5,5,5,0.1),inset_-0.05em_-0.05em_0.05em_0_rgba(5,5,5,0.25),inset_0_0_0_0_rgba(5,5,5,0.1),inset_0_0_0.05em_0.2em_rgba(255,255,255,0.25),inset_0.025em_0.05em_0.1em_0_rgba(255,255,255,1),inset_0.12em_0.12em_0.12em_rgba(255,255,255,0.25),inset_-0.075em_-0.25em_0.25em_0.1em_rgba(5,5,5,0.25)] group-hover:[clip-path:inset(clamp(1px,0.0625em,2px)_clamp(1px,0.0625em,2px)_clamp(1px,0.0625em,2px)_clamp(1px,0.0625em,2px)_round_100em)] group-hover:shadow-[inset_0.1em_0.15em_0.05em_0_rgba(5,5,5,0.75),inset_-0.025em_-0.03em_0.05em_0.025em_rgba(5,5,5,0.5),inset_0.25em_0.25em_0.2em_0_rgba(5,5,5,0.5),inset_0_0_0.05em_0.5em_rgba(255,255,255,0.15),inset_0_0_0_0_rgba(255,255,255,1),inset_0.12em_0.12em_0.12em_rgba(255,255,255,0.25),inset_-0.075em_-0.12em_0.2em_0.1em_rgba(5,5,5,0.25)] group-active:scale-[0.975]">
+            <span className="relative z-[4] font-sans tracking-[-0.05em] font-medium text-transparent block select-none bg-[linear-gradient(135deg,rgba(25,25,25,1),rgba(75,75,75,1))] bg-clip-text [text-shadow:rgba(0,0,0,0.1)_0_0_0.1em] transition-transform duration-250 ease-out group-hover:scale-[0.975]">
+              Press me
+            </span>
+          </div>
+        </div>
+      </button>
+    )
+  },
 ]

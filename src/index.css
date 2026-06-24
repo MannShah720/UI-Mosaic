@@ -4,3 +4,8 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+
+@keyframes shine {
+  0% { left: -100px; }
+  60%, 100% { left: 100%; }
+}
