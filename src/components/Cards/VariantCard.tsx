@@ -25,11 +25,11 @@ export const VariantCard = ({
       )}
     </div>
     {needsBackground ? (
-      <div className="w-full h-32 rounded-lg bg-gradient-to-tr from-blue-100 to-purple-100 dark:from-slate-900 dark:to-slate-800 flex items-center justify-center">
+      <div className="w-full min-h-32 h-auto p-4 rounded-lg bg-gradient-to-tr from-blue-100 to-purple-100 dark:from-slate-900 dark:to-slate-800 flex items-center justify-center">
         {children}
       </div>
     ) : (
-      <div className="w-full h-32 rounded-lg border border-gray-300 dark:border-slate-700/50 bg-slate-50 dark:bg-slate-900/40 flex items-center justify-center">
+      <div className="w-full min-h-32 h-auto p-4 rounded-lg border border-gray-300 dark:border-slate-700/50 bg-slate-50 dark:bg-slate-900/40 flex items-center justify-center">
         {children}
       </div>
     )}
