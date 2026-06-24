@@ -1,5 +1,3 @@
-import { ArrowUp } from "lucide-react"
-
 interface ButtonProps {
   children: React.ReactNode
   onClick?: () => void
