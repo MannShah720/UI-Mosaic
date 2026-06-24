@@ -1,13 +1,22 @@
-import {useState} from "react"
-import {ButtonMinimal, ButtonBold, ButtonPlayful} from "../Button/Button"
-import {CodeModal} from "../Modal/CodeModal"
-import {buttonSnippets} from "../../data/codeSnippets"
+import {Plus, ChevronRight} from "lucide-react"
+
+import { useState } from "react"
+import {
+  ButtonSolid,
+  ButtonSoft,
+  ButtonOutlined,
+  ButtonPlayful,
+  ButtonElevated,
+  ButtonGlass,
+} from "../Button/Button"
+import { CodeModal } from "../Modal/CodeModal"
+import { buttonSnippets } from "../../data/codeSnippets"
 
 interface ComponentDisplayProps {
   componentName: string
 }
 
-export const ComponentDisplay = ({componentName}: ComponentDisplayProps) => {
+export const ComponentDisplay = ({ componentName }: ComponentDisplayProps) => {
   const [modalOpen, setModalOpen] = useState(false)
   const [activeCode, setActiveCode] = useState("")
 
@@ -23,7 +32,7 @@ export const ComponentDisplay = ({componentName}: ComponentDisplayProps) => {
   )
 
   const VariantCard = ({title, code, children}: {title: string, code: string, children: React.ReactNode}) => (
-    <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col">
+    <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col h-full">
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-sm font-semibold text-gray-900">{title}</h2>
         <button
@@ -35,7 +44,8 @@ export const ComponentDisplay = ({componentName}: ComponentDisplayProps) => {
           <ClipboardIcon />
         </button>
       </div>
-      <div className="space-y-4 flex-1 flex flex-col items-start justify-center">
+      {/* Replaced flex-1 and py-4 with a fixed height (h-32) to enforce uniform row heights */}
+      <div className="w-full h-32 flex items-center justify-center">
         {children}
       </div>
     </div>
@@ -44,21 +54,43 @@ export const ComponentDisplay = ({componentName}: ComponentDisplayProps) => {
   if (componentName === "Button") {
     return (
       <div className="max-w-6xl">
-        <h1 className="text-3xl font-semibold tracking-tight text-gray-900 mb-8">Button</h1>
+        <h1 className="text-3xl font-semibold tracking-tight text-gray-900 mb-8">
+          Button
+        </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          
-          <VariantCard title="Minimal" code={buttonSnippets.minimal}>
-            <ButtonMinimal>Button</ButtonMinimal>
+          <VariantCard title="Outlined" code={buttonSnippets.outlined}>
+            <ButtonOutlined>Button</ButtonOutlined>
           </VariantCard>
 
-          <VariantCard title="Bold" code={buttonSnippets.bold}>
-            <ButtonBold>Button</ButtonBold>
+          <VariantCard title="Soft" code={buttonSnippets.soft}>
+            <ButtonSoft>Button</ButtonSoft>
           </VariantCard>
 
           <VariantCard title="Playful" code={buttonSnippets.playful}>
             <ButtonPlayful>Button</ButtonPlayful>
           </VariantCard>
 
+          <VariantCard title="Solid" code={buttonSnippets.solid}>
+            <ButtonSolid>Button</ButtonSolid>
+          </VariantCard>
+
+          <VariantCard title="Solid (Start Icon)" code={buttonSnippets.solidWithIcon}>
+            <ButtonSolid leftIcon={<Plus />}>Add to cart</ButtonSolid>
+          </VariantCard>
+
+          <VariantCard title="Solid (End Icon)" code={buttonSnippets.solidWithEndIcon}>
+            <ButtonSolid rightIcon={<ChevronRight />}>Go to checkout</ButtonSolid>
+          </VariantCard>
+
+          <VariantCard title="Elevated" code={buttonSnippets.elevated}>
+            <ButtonElevated>Button</ButtonElevated>
+          </VariantCard>
+
+          <VariantCard title="Glass" code={buttonSnippets.glass}>
+            <div className="w-full h-full rounded-lg bg-gradient-to-tr from-blue-100 to-purple-100 flex items-center justify-center">
+              <ButtonGlass>Button</ButtonGlass>
+            </div>
+          </VariantCard>
         </div>
 
         <CodeModal
