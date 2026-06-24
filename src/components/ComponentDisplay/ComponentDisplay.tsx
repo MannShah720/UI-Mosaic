@@ -67,7 +67,7 @@ export const ComponentDisplay = ({ componentName }: {componentName: string}) => 
           </div>
 
           <div className="flex flex-col gap-1.5">
-            <label className="text-xs font-semibold text-gray-500 dark:text-slate-400 uppercase tracking-wider">Interaction State</label>
+            <label className="text-xs font-semibold text-gray-500 dark:text-slate-400 uppercase tracking-wider">State</label>
             <select value={btnState} onChange={(e) => setBtnState(e.target.value as any)} className="px-3 py-2 border border-gray-200 dark:border-slate-700 rounded-lg text-sm bg-gray-50 dark:bg-slate-800 text-gray-900 dark:text-white outline-none focus:ring-2 focus:ring-blue-500 w-48">
               <option value="none">Default</option>
               <option value="start">Start Icon</option>
