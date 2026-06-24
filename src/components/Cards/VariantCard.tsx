@@ -29,7 +29,7 @@ export const VariantCard = ({
         {children}
       </div>
     ) : (
-      <div className="w-full h-32 flex items-center justify-center">
+      <div className="w-full h-32 rounded-lg border border-gray-300 dark:border-slate-700/50 bg-slate-50 dark:bg-slate-900/40 flex items-center justify-center">
         {children}
       </div>
     )}
