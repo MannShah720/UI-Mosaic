@@ -8,8 +8,10 @@ export const CodeModal = ({isOpen, onClose, code}: CodeModalProps) => {
   if (!isOpen) return null
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/30 backdrop-blur-sm transition-opacity">
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-xl border border-gray-100 overflow-hidden flex flex-col">
+    // Added 'p-4' to the overlay to ensure the modal doesn't touch screen edges
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/30 backdrop-blur-sm transition-opacity">
+      {/* Added max-h-[90vh] to keep it within the viewport */}
+      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-xl max-h-[90vh] border border-gray-100 overflow-hidden flex flex-col">
         {/* Header */}
         <div className="flex items-center justify-between px-5 py-4 border-b border-gray-100 bg-gray-50/50">
           <span className="text-sm font-semibold text-gray-900">Code Snippet</span>
@@ -23,8 +25,8 @@ export const CodeModal = ({isOpen, onClose, code}: CodeModalProps) => {
           </button>
         </div>
         
-        {/* Code Area */}
-        <div className="p-6 bg-[#1C1C1E] overflow-x-auto">
+        {/* Code Area: Added overflow-y-auto to allow vertical scrolling */}
+        <div className="p-6 bg-[#1C1C1E] overflow-y-auto overflow-x-auto">
           <pre className="text-sm text-gray-200" style={{fontFamily: "Consolas, monospace"}}>
             <code>{code}</code>
           </pre>

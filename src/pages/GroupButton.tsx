@@ -9,7 +9,7 @@ export const GroupButton = () => {
   
     return (
       <div className="max-w-6xl">
-        <h1 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Custom Buttons</h1>
+        <h1 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Button Groups</h1>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {groupVariants.map(({ id, title, codeSnippet, Component }) => (
