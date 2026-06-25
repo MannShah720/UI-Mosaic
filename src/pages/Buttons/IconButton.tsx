@@ -1,18 +1,18 @@
 import { useState } from "react"
-import { VariantCard } from "../components/Cards/VariantCard"
-import { CodeModal } from "../components/Modal/CodeModal"
-import { groupVariants } from "../data/groupSnippets"
+import { VariantCard } from "../../components/Cards/VariantCard"
+import { CodeModal } from "../../components/Modal/CodeModal"
+import { iconVariants } from "../../data/Buttons/iconButtonSnippets"
 
-export const GroupButton = () => {
+export const IconButton = () => {
     const [modalOpen, setModalOpen] = useState(false)
     const [activeCode, setActiveCode] = useState("")
   
     return (
       <div className="max-w-6xl">
-        <h1 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Button Groups</h1>
+        <h1 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Icon Buttons</h1>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {groupVariants.map(({ id, title, codeSnippet, Component }) => (
+          {iconVariants.map(({ id, title, codeSnippet, Component }) => (
             <VariantCard
               key={id}
               title={title}

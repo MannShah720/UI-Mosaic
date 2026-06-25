@@ -2,7 +2,7 @@ import {useState} from "react"
 import {Plus, ChevronRight} from "lucide-react"
 import {CodeModal} from "../../components/Modal/CodeModal"
 import {VariantCard} from "../../components/Cards/VariantCard"
-import {getButtonPlaygroundVariants} from "../../data/buttonPlaygroundSnippets"
+import {getButtonPlaygroundVariants} from "../../data/Buttons/buttonPlaygroundSnippets"
 
 const radiusMap = {
   none: "rounded-none",

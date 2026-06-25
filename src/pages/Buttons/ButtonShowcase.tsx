@@ -1,7 +1,7 @@
 import { useState } from "react"
-import { VariantCard } from "../components/Cards/VariantCard"
-import { CodeModal } from "../components/Modal/CodeModal"
-import { buttonVariants } from "../data/buttonSnippets"
+import { VariantCard } from "../../components/Cards/VariantCard"
+import { CodeModal } from "../../components/Modal/CodeModal"
+import { buttonVariants } from "../../data/Buttons/buttonSnippets"
 
 export const ButtonShowcase = () => {
   const [modalOpen, setModalOpen] = useState(false)

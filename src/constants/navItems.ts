@@ -11,7 +11,9 @@ export const navItems = [
   {
     category: "Buttons",
     items: [
-      {id: "btn-showcase", label: "Custom Buttons", path: "/buttons/showcase"},
+      {id: "btn-animated", label: "Animated", path: "/buttons/animated"},
+      {id: "btn-icons", label: "Icons", path: "/buttons/icons"},
+      {id: "btn-thematic", label: "Thematic", path: "/buttons/thematic"},
       {id: "btn-group", label: "Group", path: "/buttons/group"},
     ]
   }

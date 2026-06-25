@@ -3,7 +3,7 @@ import {Loader2} from "lucide-react"
 import {
   ButtonSolid, ButtonSoft, ButtonOutlined, ButtonBold, ButtonPlayful, 
   ButtonGhost, ButtonElevated, ButtonDestructive, ButtonGlass
-} from "../components/Button/Button"
+} from "../../components/Button/Button"
 
 interface GeneratorParams {
   btnState: "none" | "start" | "end" | "loading" | "circular-loader";
@@ -131,9 +131,9 @@ export const getButtonPlaygroundVariants = (params: GeneratorParams): ButtonPlay
     {
       id: "gradient-2",
       title: "Gradient 2",
-      codeSnippet: getCodeSnippet("inline-flex items-center justify-center gap-2 bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200 cursor-pointer disabled:opacity-50", btnState, radiusClass, sizeClass, "Gradient"),
+      codeSnippet: getCodeSnippet("inline-flex items-center justify-center gap-2 bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200 cursor-pointer disabled:opacity-50", btnState, radiusClass, sizeClass, "Button"),
       Component: () => {
-        const content = isLoading ? (isCircular ? <Loader2 className="animate-spin" size={18} /> : "Loading...") : (<>{leftIcon} Gradient {rightIcon}</>)
+        const content = isLoading ? (isCircular ? <Loader2 className="animate-spin" size={18} /> : "Loading...") : (<>{leftIcon} Button {rightIcon}</>)
         return (
           <button className={`inline-flex items-center justify-center gap-2 bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200 cursor-pointer disabled:opacity-50 ${radiusClass} ${sizeClass}`} disabled={isLoading}>
             {content}

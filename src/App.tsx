@@ -1,5 +1,7 @@
-import { ButtonShowcase } from "./pages/ButtonShowcase"
-import { GroupButton } from "./pages/GroupButton"
+import { ButtonShowcase } from "./pages/Buttons/ButtonShowcase"
+import { GroupButton } from "./pages/Buttons/GroupButton"
+import { IconButton } from "./pages/Buttons/IconButton"
+import { ThematicButton } from "./pages/Buttons/ThematicButton"
 import { ButtonPlayground } from "./pages/Playground/ButtonPlayground"
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
 import { Sidebar } from "./components/Sidebar/Sidebar"
@@ -13,7 +15,9 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Navigate to="/playground/buttons" />} />
             <Route path="/playground/buttons" element={<ButtonPlayground />} />
-            <Route path="/buttons/showcase" element={<ButtonShowcase />} />
+            <Route path="/buttons/animated" element={<ButtonShowcase />} />
+            <Route path="/buttons/icons" element={<IconButton />} />
+            <Route path="/buttons/thematic" element={<ThematicButton />} />
             <Route path="/buttons/group" element={<GroupButton />} />
           </Routes>
         </main>
