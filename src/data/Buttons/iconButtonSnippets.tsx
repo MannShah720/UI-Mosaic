@@ -117,8 +117,8 @@ export const iconVariants: IconVariant[] = [
     )
   },
   {
-    id: "neo-morphic",
-    title: "Neomorphic",
+    id: "neumorphic-circle",
+    title: "Neumorphic Circle",
     codeSnippet: `<div className="relative h-[100px] w-[100px]">
   <input type="checkbox" className="peer absolute inset-0 z-10 h-full w-full cursor-pointer opacity-0" />
   <span className="absolute left-1/2 top-1/2 -ml-[34.4px] -mt-[34.4px] block h-[68.8px] w-[68.8px] rounded-full bg-[#eaeaea] transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] shadow-[0_15px_25px_-4px_rgba(0,0,0,0.5),inset_0_-3px_4px_-1px_rgba(0,0,0,0.2),0_-10px_15px_-1px_rgba(255,255,255,0.6),inset_0_3px_4px_-1px_rgba(255,255,255,0.2),inset_0_0_5px_1px_rgba(255,255,255,0.8),inset_0_20px_30px_0_rgba(255,255,255,0.2)] peer-active:blur-[0.5px] peer-active:shadow-[0_12px_25px_-4px_rgba(0,0,0,0.4),inset_0_-8px_30px_1px_rgba(255,255,255,0.9),0_-10px_15px_-1px_rgba(255,255,255,0.6),inset_0_8px_25px_0_rgba(0,0,0,0.4),inset_0_0_10px_1px_rgba(255,255,255,0.6)] peer-checked:blur-[0.5px] peer-checked:shadow-[0_10px_25px_-4px_rgba(0,0,0,0.4),inset_0_-8px_25px_-1px_rgba(255,255,255,0.9),0_-10px_15px_-1px_rgba(255,255,255,0.6),inset_0_8px_20px_0_rgba(0,0,0,0.2),inset_0_0_5px_1px_rgba(255,255,255,0.6)]"></span>
@@ -136,6 +136,23 @@ export const iconVariants: IconVariant[] = [
       </div>
     )
   },
+  {
+    id: "neumorphic-square",
+    title: "Neumorphic Square",
+    codeSnippet: `<button className="group flex items-center justify-center bg-[#e3edf7] p-[1.4em] rounded-[10px] border border-transparent shadow-[6px_6px_10px_-1px_rgba(0,0,0,0.15),-6px_-6px_10px_-1px_rgba(255,255,255,0.7)] transition-transform duration-500 hover:translate-y-[0.5em] hover:border-[rgba(0,0,0,0.1)] hover:shadow-[inset_4px_4px_6px_-1px_rgba(0,0,0,0.2),inset_-4px_-4px_6px_-1px_rgba(255,255,255,0.7),-0.5px_-0.5px_0px_rgba(255,255,255,1),0.5px_0.5px_0px_rgba(0,0,0,0.15),0px_12px_10px_-10px_rgba(0,0,0,0.05)]">
+<svg width="40" height="40" className="fill-[#0092E4] transition-transform duration-500 group-hover:scale-[0.9] group-hover:fill-[#333333]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"></path>
+</svg>
+</button>`,
+    Component: () => (
+      <button className="group flex items-center justify-center bg-[#e3edf7] p-[1.4em] rounded-[10px] border border-transparent shadow-[6px_6px_10px_-1px_rgba(0,0,0,0.15),-6px_-6px_10px_-1px_rgba(255,255,255,0.7)] transition-transform duration-500 hover:translate-y-[0.5em] hover:border-[rgba(0,0,0,0.1)] hover:shadow-[inset_4px_4px_6px_-1px_rgba(0,0,0,0.2),inset_-4px_-4px_6px_-1px_rgba(255,255,255,0.7),-0.5px_-0.5px_0px_rgba(255,255,255,1),0.5px_0.5px_0px_rgba(0,0,0,0.15),0px_12px_10px_-10px_rgba(0,0,0,0.05)]">
+        <svg width="40" height="40" className="fill-[#0092E4] transition-transform duration-500 group-hover:scale-[0.9] group-hover:fill-[#333333]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"></path>
+        </svg>
+      </button>
+    )
+  },
+  
   {
     id: "notification-bell",
     title: "Notification Bell",
@@ -203,5 +220,67 @@ export const iconVariants: IconVariant[] = [
         </svg>
       </button>
     )
-  }
+  },
+
+
+  {
+    id: "text-pop-up",
+    title: "Text Pop-Up",
+    codeSnippet: `const GitHubButton = () => (
+    <div className="group relative">
+      <button type="button">
+        <svg strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" className="w-8 hover:scale-125 duration-200 hover:stroke-blue-500">
+          <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+        </svg>
+      </button>
+      <span className="absolute -top-14 left-[50%] -translate-x-[50%] z-20 origin-bottom scale-0 px-3 rounded-lg border border-gray-300 bg-white py-2 text-sm font-bold shadow-md transition-all duration-300 ease-in-out group-hover:scale-100 whitespace-nowrap">
+        GitHub
+      </span>
+    </div>
+  );`,
+    Component: () => (
+      <div className="group relative">
+        <button type="button">
+          <svg strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" className="w-8 hover:scale-125 duration-200 hover:stroke-blue-500">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+        </button>
+        <span className="absolute -top-14 left-[50%] -translate-x-[50%] z-20 origin-bottom scale-0 px-3 rounded-lg border border-gray-300 bg-white py-2 text-sm font-bold shadow-md transition-all duration-300 ease-in-out group-hover:scale-100 whitespace-nowrap">
+          GitHub
+        </span>
+      </div>
+    )
+  },
+
+  {
+    id: "app-launcher",
+    title: "App Launcher",
+    codeSnippet: `const FileExplorerButton = () => (
+    <button className="group relative flex items-center justify-center w-[5.3em] h-[5.3em] border-none cursor-pointer rounded-[0.4em] bg-[rgba(235,252,254,0.8)] transition-all duration-300 hover:scale-110 hover:shadow-lg" type="button">
+      {/* Single Icon */}
+      <svg viewBox="0 0 24 24" className="w-[2.8em] h-[2.8em] fill-[rgb(238,194,47)]" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+      </svg>
+  
+      {/* Active indicator */}
+      <div className="absolute bottom-0 w-[0.9em] h-[0.4em] bg-[#999] border-none rounded-[1em] transition-all duration-[0.15s] linear group-active:w-[2.3em] group-active:bg-[rgb(41,126,255)]"></div>
+      
+      {/* Tooltip */}
+      <span className="absolute -top-[4.5em] w-[7.7em] h-[2.6em] bg-[#666] text-white flex justify-center items-center border-none rounded-[5px] [text-shadow:0_0_10px_rgb(0,0,0)] opacity-0 transition-all duration-[0.25s] linear group-hover:opacity-100">
+        File Explorer
+      </span>
+    </button>
+  );`,
+    Component: () => (
+      <button className="group relative flex items-center justify-center w-[5.3em] h-[5.3em] border-none cursor-pointer rounded-[0.4em] bg-[rgba(235,252,254,0.8)] transition-all duration-300 hover:scale-110 hover:shadow-lg" type="button">
+        <svg viewBox="0 0 24 24" className="w-[2.8em] h-[2.8em] fill-[rgb(238,194,47)]" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+        </svg>
+        <div className="absolute bottom-0 w-[0.9em] h-[0.4em] bg-[#999] border-none rounded-[1em] transition-all duration-[0.15s] linear group-active:w-[2.3em] group-active:bg-[rgb(41,126,255)]"></div>
+        <span className="absolute -top-[4.5em] w-[7.7em] h-[2.6em] bg-[#666] text-white flex justify-center items-center border-none rounded-[5px] [text-shadow:0_0_10px_rgb(0,0,0)] opacity-0 transition-all duration-[0.25s] linear group-hover:opacity-100">
+          File Explorer
+        </span>
+      </button>
+    )
+  },
 ]
