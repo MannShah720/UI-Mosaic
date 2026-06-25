@@ -1,8 +1,8 @@
 import { ButtonShowcase } from "./pages/ButtonShowcase"
 import { GroupButton } from "./pages/GroupButton"
+import { ButtonPlayground } from "./pages/Playground/ButtonPlayground"
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
 import { Sidebar } from "./components/Sidebar/Sidebar"
-import { ComponentDisplay } from "./components/ComponentDisplay/ComponentDisplay"
 
 export default function App() {
   return (
@@ -11,8 +11,8 @@ export default function App() {
         <Sidebar />
         <main className="flex-1 p-8 overflow-y-auto">
           <Routes>
-            <Route path="/" element={<Navigate to="/buttons/playground" />} />
-            <Route path="/playground/buttons" element={<ComponentDisplay componentName="Button" />} />
+            <Route path="/" element={<Navigate to="/playground/buttons" />} />
+            <Route path="/playground/buttons" element={<ButtonPlayground />} />
             <Route path="/buttons/showcase" element={<ButtonShowcase />} />
             <Route path="/buttons/group" element={<GroupButton />} />
           </Routes>
