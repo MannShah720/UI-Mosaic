@@ -31,7 +31,7 @@ export const thematicVariant: ThematicVariant[] = [
       <p className="flex items-center gap-[12px] m-0 transition-all duration-200 ease-in-out translate-y-[2%] [mask-image:linear-gradient(to_bottom,white_40%,transparent)] group-hover:-translate-y-[4%]">
         <span className="inline-block group-hover:hidden">✧</span>
         <span className="hidden group-hover:inline-block">✦</span>
-        Pearl Button
+        Pearl
       </p>
     </div>
   </button>`,
@@ -41,7 +41,7 @@ export const thematicVariant: ThematicVariant[] = [
           <p className="flex items-center gap-[12px] m-0 transition-all duration-200 ease-in-out translate-y-[2%] [mask-image:linear-gradient(to_bottom,white_40%,transparent)] group-hover:-translate-y-[4%]">
             <span className="inline-block group-hover:hidden">✧</span>
             <span className="hidden group-hover:inline-block">✦</span>
-            Pearl Button
+            Pearl
           </p>
         </div>
       </button>
@@ -67,6 +67,40 @@ export const thematicVariant: ThematicVariant[] = [
               Press me
             </span>
           </div>
+        </div>
+      </button>
+    )
+  },
+  {
+    id: "liquid-glass",
+    title: "Liquid Glass",
+    codeSnippet: `<button className="relative px-6 py-2 rounded-full backdrop-blur-md bg-white/10 border border-white/20 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.4)] text-white hover:bg-white/20 transition-all duration-300 cursor-pointer">
+Liquid Glass
+</button>`,
+    Component: () => (
+      <div className="p-10 rounded-2xl bg-gradient-to-tr from-purple-500 via-blue-500 to-emerald-500 flex items-center justify-center">
+        <button className="relative px-6 py-2 rounded-full backdrop-blur-md bg-white/10 border border-white/20 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.4)] text-white hover:bg-white/20 transition-all duration-300 cursor-pointer">
+          Liquid Glass
+        </button>
+      </div>
+    )
+  },
+  {
+    id: "keyboard-button",
+    title: "Keyboard Button",
+    codeSnippet: `<button className="group relative border-none bg-transparent p-0 outline-none cursor-pointer font-sans">
+<span className="absolute top-0 left-0 w-full h-full bg-black/25 rounded-lg translate-y-[2px] transition-transform duration-600 ease-[cubic-bezier(0.3,0.7,0.4,1)] group-hover:translate-y-[4px] group-hover:duration-250 group-active:translate-y-[1px] group-active:duration-75"></span>
+<span className="absolute top-0 left-0 w-full h-full rounded-lg bg-gradient-to-l from-[#1c2534] via-[#364761] to-[#1c2534]"></span>
+<div className="relative flex items-center justify-center px-[28px] py-[12px] text-[1.25rem] text-white bg-[#1c2534] rounded-lg -translate-y-[4px] transition-transform duration-600 ease-[cubic-bezier(0.3,0.7,0.4,1)] group-hover:-translate-y-[6px] group-hover:duration-250 group-active:-translate-y-[2px] group-active:duration-75">
+  <span className="select-none">Click me</span>
+</div>
+</button>`,
+    Component: () => (
+      <button className="group relative border-none bg-transparent p-0 outline-none cursor-pointer font-sans">
+        <span className="absolute top-0 left-0 w-full h-full bg-black/25 rounded-lg translate-y-[2px] transition-transform duration-600 ease-[cubic-bezier(0.3,0.7,0.4,1)] group-hover:translate-y-[4px] group-hover:duration-250 group-active:translate-y-[1px] group-active:duration-75"></span>
+        <span className="absolute top-0 left-0 w-full h-full rounded-lg bg-gradient-to-l from-[#1c2534] via-[#364761] to-[#1c2534]"></span>
+        <div className="relative flex items-center justify-center px-[28px] py-[12px] text-[1.25rem] text-white bg-[#1c2534] rounded-lg -translate-y-[4px] transition-transform duration-600 ease-[cubic-bezier(0.3,0.7,0.4,1)] group-hover:-translate-y-[6px] group-hover:duration-250 group-active:-translate-y-[2px] group-active:duration-75">
+          <span className="select-none">Click me</span>
         </div>
       </button>
     )
